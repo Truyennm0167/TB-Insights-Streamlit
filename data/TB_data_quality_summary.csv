@@ -1,0 +1,7 @@
+indicator,column,missing,available,completeness_pct
+Tỷ suất mắc mới ước tính,e_inc_100k,25,5322,99.53244810173929
+Số ca mắc mới ước tính,e_inc_num,25,5322,99.53244810173929
+Tỷ suất tử vong ước tính,e_mort_100k,25,5322,99.53244810173929
+Số ca tử vong ước tính,e_mort_num,25,5322,99.53244810173929
+Tỷ lệ phát hiện ca bệnh (c_cdr),c_cdr,364,4983,93.1924443613241
+Dân số ước tính,e_pop_num,0,5347,100.0

@@ -1,0 +1,16 @@
+{
+  "raw_rows": 5347,
+  "raw_columns": 50,
+  "clean_rows": 5347,
+  "clean_columns": 48,
+  "app_columns": 25,
+  "iso3_entities": 217,
+  "year_min": 2000,
+  "year_max": 2024,
+  "duplicate_iso3_year": 0,
+  "all_null_columns_removed": [
+    "e_tbhiv_prct_lo",
+    "e_tbhiv_prct_hi"
+  ],
+  "kmeans_candidates_latest_year": 193
+}

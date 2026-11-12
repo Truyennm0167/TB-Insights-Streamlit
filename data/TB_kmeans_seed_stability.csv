@@ -1,0 +1,2 @@
+configuration,runs,pairwise_comparisons,mean_pairwise_ari,min_pairwise_ari,max_pairwise_ari
+"RobustScaler - raw, k=2",10,45,0.9847693940591371,0.9714426138608826,1.0

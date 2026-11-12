@@ -1,0 +1,22 @@
+preprocessing,preprocessing_vi,k,silhouette,calinski_harabasz,davies_bouldin,cluster_sizes_ascending,is_selected
+StandardScaler - raw,StandardScaler · Dữ liệu gốc,2,0.5618112136180832,176.2251703348848,0.8132593267345217,35;158,False
+StandardScaler - raw,StandardScaler · Dữ liệu gốc,3,0.4317342129406982,187.4681391557171,0.7730496312039713,23;66;104,False
+StandardScaler - raw,StandardScaler · Dữ liệu gốc,4,0.42843640793381094,176.35001442482107,0.8821552400566246,16;31;63;83,False
+StandardScaler - raw,StandardScaler · Dữ liệu gốc,5,0.4250769820035824,168.4211037375058,0.8707691017797284,3;18;30;61;81,False
+StandardScaler - raw,StandardScaler · Dữ liệu gốc,6,0.4284458234480866,164.38055692608683,0.9368896445721436,3;4;16;31;63;76,False
+StandardScaler - raw,StandardScaler · Dữ liệu gốc,7,0.39907702113562793,173.18267592492464,0.8068015314809022,2;3;16;29;33;41;69,False
+StandardScaler - raw,StandardScaler · Dữ liệu gốc,8,0.410493758127425,175.22477816934696,0.7850215693944016,2;3;17;21;28;28;36;58,False
+StandardScaler - log1p rates,StandardScaler · Log1p hai tỷ suất,2,0.46953760698009106,255.02778406160166,0.7775525568206244,96;97,False
+StandardScaler - log1p rates,StandardScaler · Log1p hai tỷ suất,3,0.3796770925603204,218.8484415314202,0.9074172185188676,63;64;66,False
+StandardScaler - log1p rates,StandardScaler · Log1p hai tỷ suất,4,0.33825404650101304,189.82501424553277,1.0080512571316929,36;46;49;62,False
+StandardScaler - log1p rates,StandardScaler · Log1p hai tỷ suất,5,0.3346479790140334,182.20153641919666,0.9950578374279372,20;36;39;45;53,False
+StandardScaler - log1p rates,StandardScaler · Log1p hai tỷ suất,6,0.3353695558945916,177.69884061064784,0.9284366005052543,18;27;32;37;38;41,False
+StandardScaler - log1p rates,StandardScaler · Log1p hai tỷ suất,7,0.33214214136811343,174.0199508595978,0.8995349112740676,11;20;26;29;31;34;42,False
+StandardScaler - log1p rates,StandardScaler · Log1p hai tỷ suất,8,0.3211071788932366,170.6861244318292,0.9226963854010712,10;17;20;21;27;28;33;37,False
+RobustScaler - raw,RobustScaler · Dữ liệu gốc,2,0.66376070176147,249.62922081688765,0.635971663912603,26;167,True
+RobustScaler - raw,RobustScaler · Dữ liệu gốc,3,0.47802647007717786,216.80235209012116,0.8382510158155476,17;46;130,False
+RobustScaler - raw,RobustScaler · Dữ liệu gốc,4,0.4479289130372944,206.27212905607155,0.8100208780941414,3;19;51;120,False
+RobustScaler - raw,RobustScaler · Dữ liệu gốc,5,0.43589473778109145,228.55887781882538,0.764930004329049,3;18;34;61;77,False
+RobustScaler - raw,RobustScaler · Dữ liệu gốc,6,0.4443545969084722,236.8917136564159,0.7751421684455323,3;3;16;33;61;77,False
+RobustScaler - raw,RobustScaler · Dữ liệu gốc,7,0.4130274131872352,230.63932811399857,0.8517033038035225,3;3;12;23;26;55;71,False
+RobustScaler - raw,RobustScaler · Dữ liệu gốc,8,0.3663141851783495,224.4951991627864,0.8194310758523067,3;3;11;12;29;32;49;54,False

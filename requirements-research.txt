@@ -1,0 +1,4 @@
+-r requirements.txt
+scikit-learn>=1.4,<2.0
+matplotlib>=3.8,<4.0
+notebook>=7.0,<8.0

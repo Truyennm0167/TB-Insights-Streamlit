@@ -1,0 +1,55 @@
+TB INSIGHTS CT312 — FINAL AUDIT TEST RESULTS
+Version: 1.3 Final
+Date: 2026-11-12
+
+1) Reproducible EDA pipeline
+Command: python src/run_eda.py
+Result: PASS
+- Raw CSV: 5,347 rows x 50 columns
+- Cleaned dataset: 5,347 rows x 48 columns (2 all-null columns removed)
+- App table: 5,347 rows x 25 columns
+- ISO3 entities: 217
+- Year range: 2000–2024
+- Duplicate ISO3-year keys: 0
+- Latest-year K-means complete cases: 193
+
+2) Reproducible K-means pipeline
+Command: python src/run_kmeans.py
+Result: PASS
+- 193 entities
+- 21 benchmark configurations (3 preprocessing methods x K=2..8)
+- Selected model: RobustScaler (raw features) + KMeans K=2
+- Silhouette: 0.6637607018
+- Calinski-Harabasz: 249.6292208
+- Davies-Bouldin: 0.6359716639
+- Mean pairwise ARI over 10 independent initializations: 0.9847693941
+- Cluster sizes: 167 and 26
+- Vietnam cluster ID: 1
+
+3) Data validator
+Command: python scripts/validate_data.py
+Result: PASS
+- 2024 estimated incident cases: 10,553,581
+- Project-calculated aggregate incidence rate: 130.175446 per 100,000
+- 2024 estimated TB deaths: 1,198,800
+- Project-calculated aggregate mortality rate: 14.786860 per 100,000
+
+4) Unit tests
+Command: python -m unittest discover -s tests -v
+Result: PASS — 20/20 tests
+Includes KPI checks, data dimensions, ISO3-year uniqueness, WHO region mapping,
+cluster source-data integrity, benchmark selection, region-share totals, trend
+coverage hover, top country by rate vs absolute cases, and Vietnam/WPR comparisons.
+
+5) Notebook execution
+- notebooks/01_TB_data_cleaning_and_EDA.ipynb: executed with Jupyter kernel; no cell errors.
+- notebooks/02_Kmeans_clustering.ipynb: executed with Jupyter kernel; no cell errors.
+
+6) Python compilation
+Command: python -m py_compile streamlit_app.py tb_insights/*.py tb_insights/pages/*.py src/*.py scripts/*.py tests/*.py
+Result: PASS
+
+7) Not completed in this packaging environment
+- Streamlit is not installed in the packaging environment and package installation could not be performed; therefore no live browser smoke test of v1.3 was possible here.
+- User must run v1.3 locally, inspect all five pages and filters, then deploy to Streamlit Community Cloud and verify the public URL.
+- Word/PDF report and presentation are intentionally not included; those remain the student's deliverables.

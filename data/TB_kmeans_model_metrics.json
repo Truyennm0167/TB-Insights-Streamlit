@@ -1,0 +1,14 @@
+{
+  "n_countries": 193,
+  "k": 2,
+  "selected_preprocessing": "RobustScaler - raw",
+  "silhouette": 0.66376070176147,
+  "calinski_harabasz": 249.62922081688765,
+  "davies_bouldin": 0.635971663912603,
+  "mean_pairwise_ari_10_seeds": 0.9847693940591371,
+  "cluster_sizes": {
+    "1": 167,
+    "2": 26
+  },
+  "vietnam_cluster_id": 1
+}
